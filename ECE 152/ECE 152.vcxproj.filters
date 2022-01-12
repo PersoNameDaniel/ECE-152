@@ -13,5 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Lab 1">
+      <UniqueIdentifier>{70b41623-bcd4-4ec1-b0a6-a3a36810393c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Olsson_Lab1_p2.cpp">
+      <Filter>Source Files\Lab 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab1_p1.cpp">
+      <Filter>Source Files\Lab 1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

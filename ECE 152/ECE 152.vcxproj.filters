@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Lab 2">
       <UniqueIdentifier>{ccb025a4-829d-4514-8712-50beda82d8f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lab 3">
+      <UniqueIdentifier>{d14832e0-88c3-4790-baaf-261f575e5813}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LAB 1\Olsson _Lab1_p3.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="Olsson_Lab2_p3.cpp">
       <Filter>Source Files\Lab 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab3_p1.cpp">
+      <Filter>Source Files\Lab 3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

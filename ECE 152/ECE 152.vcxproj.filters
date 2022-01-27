@@ -16,19 +16,31 @@
     <Filter Include="Source Files\Lab 1">
       <UniqueIdentifier>{70b41623-bcd4-4ec1-b0a6-a3a36810393c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lab 2">
+      <UniqueIdentifier>{ccb025a4-829d-4514-8712-50beda82d8f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Olsson_Lab1_p2.cpp">
+    <ClCompile Include="LAB 1\Olsson _Lab1_p3.cpp">
       <Filter>Source Files\Lab 1</Filter>
     </ClCompile>
-    <ClCompile Include="Olsson_Lab1_p1.cpp">
+    <ClCompile Include="LAB 1\Olsson_Lab1_p1.cpp">
       <Filter>Source Files\Lab 1</Filter>
     </ClCompile>
-    <ClCompile Include="Olsson _Lab1_p3.cpp">
+    <ClCompile Include="LAB 1\Olsson_Lab1_p2.cpp">
       <Filter>Source Files\Lab 1</Filter>
     </ClCompile>
-    <ClCompile Include="Olsson_Lab1_p4.cpp">
+    <ClCompile Include="LAB 1\Olsson_Lab1_p4.cpp">
       <Filter>Source Files\Lab 1</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Libraries\Downloads\ECE 15200_Lab 2 attached files Jan 26, 2022 1046 PM\Olsson_Lab2_p1.cpp">
+      <Filter>Source Files\Lab 2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Libraries\Downloads\ECE 15200_Lab 2 attached files Jan 26, 2022 1046 PM\Olsson_Lab2_p2.cpp">
+      <Filter>Source Files\Lab 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab2_p3.cpp">
+      <Filter>Source Files\Lab 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

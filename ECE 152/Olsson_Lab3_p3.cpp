@@ -10,6 +10,8 @@ Date: 1-27-2022
 using namespace std;
 
 //defining variables
+//long double userDollarAmount;
+//long double originalDollarAmount;
 int userDollarAmount;
 int originalDollarAmount;
 int divisor;

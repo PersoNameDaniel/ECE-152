@@ -21,14 +21,16 @@ int main() {
 	cout << endl;											//going to new line for formatting
 
 	//computing reply
-	if (hoursWorked <= 40) {
-		salary = hoursWorked * 80;
+	if (hoursWorked <= 40) {			//creating if statement for hours at or under 40
+		salary = hoursWorked * 80;		//calculating salary
 	}
 	else {
-		adjustedHoursWorked = hoursWorked - 40;
-		salary = 3200 + (100 * adjustedHoursWorked);
+		adjustedHoursWorked = hoursWorked - 40;				//setting adjusted hours variable for calculation
+		salary = 3200 + (100 * adjustedHoursWorked);		//calculating salary
 	}
-	cout << "In " << hoursWorked << " hours you earned a $" << salary << " salary." << endl;
+
+	//outputting answer
+	cout << "In " << hoursWorked << " hours you earned a $" << salary << " salary." << endl;		//outputting salary statement
 
 
 	return 0;

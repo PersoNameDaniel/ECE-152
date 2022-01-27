@@ -10,8 +10,8 @@ Date: 1-26-2022
 using namespace std;
 
 //defining variables
-long double numericalGrade;
-char letterGrade;
+long double numericalGrade;		//numerical grade for user input
+char letterGrade;				//letter grade for user output
 
 
 int main() {

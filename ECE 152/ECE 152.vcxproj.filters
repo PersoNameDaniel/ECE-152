@@ -24,32 +24,32 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LAB 1\Olsson _Lab1_p3.cpp">
-      <Filter>Source Files\Lab 1</Filter>
-    </ClCompile>
-    <ClCompile Include="LAB 1\Olsson_Lab1_p1.cpp">
-      <Filter>Source Files\Lab 1</Filter>
-    </ClCompile>
-    <ClCompile Include="LAB 1\Olsson_Lab1_p2.cpp">
-      <Filter>Source Files\Lab 1</Filter>
-    </ClCompile>
-    <ClCompile Include="LAB 1\Olsson_Lab1_p4.cpp">
-      <Filter>Source Files\Lab 1</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Libraries\Downloads\ECE 15200_Lab 2 attached files Jan 26, 2022 1046 PM\Olsson_Lab2_p1.cpp">
-      <Filter>Source Files\Lab 2</Filter>
-    </ClCompile>
-    <ClCompile Include="D:\Libraries\Downloads\ECE 15200_Lab 2 attached files Jan 26, 2022 1046 PM\Olsson_Lab2_p2.cpp">
-      <Filter>Source Files\Lab 2</Filter>
-    </ClCompile>
-    <ClCompile Include="Olsson_Lab2_p3.cpp">
-      <Filter>Source Files\Lab 2</Filter>
-    </ClCompile>
     <ClCompile Include="Olsson_Lab3_p1.cpp">
       <Filter>Source Files\Lab 3</Filter>
     </ClCompile>
     <ClCompile Include="Olsson_Lab3_p2.cpp">
       <Filter>Source Files\Lab 3</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson _Lab1_p3.cpp">
+      <Filter>Source Files\Lab 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab1_p1.cpp">
+      <Filter>Source Files\Lab 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab1_p2.cpp">
+      <Filter>Source Files\Lab 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab1_p4.cpp">
+      <Filter>Source Files\Lab 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab2_p1.cpp">
+      <Filter>Source Files\Lab 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab2_p2.cpp">
+      <Filter>Source Files\Lab 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Olsson_Lab2_p3.cpp">
+      <Filter>Source Files\Lab 2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

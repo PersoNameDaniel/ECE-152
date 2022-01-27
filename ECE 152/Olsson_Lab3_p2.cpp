@@ -10,11 +10,10 @@ Date: 1-26-2022
 using namespace std;
 
 //defining variables
-long double hoursWorked;
-long double salary;
-long double adjustedHoursWorked;
+
 
 int main() {
+
 
 	return 0;
 }

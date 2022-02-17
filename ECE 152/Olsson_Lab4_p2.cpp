@@ -20,7 +20,6 @@ int main() {
 
 	//default values
 	startingAmount = 8000;
-	years = 10;
 	interestRate = 0.025;
 
 	/*
@@ -29,7 +28,7 @@ int main() {
 
 	calculatedAmount = startingAmount;
 	for (years = 0; years <= 10; years++) {
-		calculatedAmount + ((interestRate * calculatedAmount) * years);
+		calculatedAmount = calculatedAmount + ((interestRate * calculatedAmount) * years);
 		cout << "After " << years << " years, there is $" << calculatedAmount << " in the account." << endl;
 	}
 

@@ -39,5 +39,6 @@ int main() {
 	}
 	cout << input << " is a palindrome" << endl;
 	exit(0);
+
 	return 0;
 }

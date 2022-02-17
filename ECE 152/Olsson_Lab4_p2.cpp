@@ -30,7 +30,7 @@ int main() {
 	calculatedAmount = startingAmount;
 	for (years = 0; years <= 10; years++) {
 		calculatedAmount + ((interestRate * calculatedAmount) * years);
-		cout << "After " << years << " years, there is $" << calculatedAmount << " in the account."
+		cout << "After " << years << " years, there is $" << calculatedAmount << " in the account." << endl;
 	}
 
 	return 0;

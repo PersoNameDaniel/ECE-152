@@ -31,7 +31,6 @@ int main() {
 				space();
 				space();
 				space();
-				space();
 				asterisk();
 				newLine();
 			break;

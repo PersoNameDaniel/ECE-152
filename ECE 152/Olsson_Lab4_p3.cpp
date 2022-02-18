@@ -34,20 +34,23 @@ int main() {
 	divisor = 3;
 	while (num < 200) {
 		if (divisor == (num - 1)) {
-			//cout << "poo " << arrayPos << endl;
+			//cout << "if " << arrayPos << endl;
 			primes[arrayPos] = num;
 			++arrayPos;
 			divisor = 3;
 			num++;
 			num++;
-			continue;
+			//continue;
 		}
 		else if ((num % divisor) == 0) {
-			continue;
+			num++;
+			num++;
+			divisor = 3;
+			//continue;
 		}
 		else {
 			divisor++;
-			//cout << "pee " << divisor << " " << num << endl;
+			//cout << "else " << divisor << " " << num << endl;
 		}
 	}
 

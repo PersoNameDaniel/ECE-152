@@ -84,5 +84,8 @@
     <ClCompile Include="Template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Olsson_Lab5_p3.cpp">
+      <Filter>Source Files\Lab 5</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

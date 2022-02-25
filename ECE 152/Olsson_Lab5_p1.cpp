@@ -18,9 +18,9 @@ int userInput;
 
 //function checks if number is prime, returns "1" if it is prime "0" if it is not prime.
 int isPrime(int n) {
-	int divisor = 3;
+	int divisor = 2;
 	while (divisor < n) {
-		if (divisor == (n - 1)){
+		if (divisor == (n - 1)) {
 			return 1;
 		}
 		else if ((n % divisor) == 0) {
@@ -35,7 +35,7 @@ int isPrime(int n) {
 //function that finds all primes including and between 2 - number.
 int countPrime(int m) {
 	int primes = 0;
-	for (m; m <= 2; m--) {
+	for (m; m >= 2; m--) {
 		if (isPrime(m) == 1) {
 			primes++;
 		}

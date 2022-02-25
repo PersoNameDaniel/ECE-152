@@ -29,8 +29,8 @@ int main() {
 	endure = true;
 
 	//first random numbers
-	firstRandom = rand() % 100 + 1;
-	secondRandom = rand() % 100 + 1;
+	firstRandom = rand() % 10 + 1;
+	secondRandom = rand() % 10 + 1;
 
 	while (endure == true) {
 

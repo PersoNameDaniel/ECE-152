@@ -1,7 +1,7 @@
 /*
 Class: ECE15200
 Author: Daniel Olsson
-Assignment: Lab x
+Assignment: Lab 5
 Date: 2-21-2022
 */
 

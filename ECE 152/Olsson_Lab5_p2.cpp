@@ -17,6 +17,7 @@ string userContinue;
 bool endure;
 int userAnswer;
 int failCount;
+int user;
 
 
 
@@ -46,17 +47,21 @@ int main() {
 			failCount = 0;
 
 			cout << "Very Good!" << endl;
-			cout << "Would You like to continue? Enter 'Yes' to continue or 'No' to stop." << endl;
-			cin >> userContinue;
+			//cout << "Would You like to continue? Enter 'Yes' to continue or 'No' to stop." << endl;
+			//cin >> userContinue;
 			cout << endl;
-			if ((userContinue == "Yes") or (userContinue == "yes")) {
-				continue;
+			user = 0;
+			while (user == 0) {
+				cout << "Would You like to continue? Enter 'yes' to continue or 'no' to stop." << endl;
+				cin >> userContinue;
+				if (userContinue.compare("yes") == 0) {
+					user = 1;
+				}
+				else if (userContinue.compare("no") == 0) {
+					endure = false;
+					user = 1;
+				}
 			}
-			else if ((userContinue == "No") or (userContinue == "no")) {
-				endure = false;
-				continue;
-			}
-
 		}
 		//if the user gets the answer wrong
 		else {

@@ -30,9 +30,9 @@ int generateQuestion() {
 
 	cout << "What is the answer to ";
 
-	symbolGenerator = rand() % 3 + 1;
+	symbolGenerator = rand() % 3;
 	switch (symbolGenerator) {
-	case 1:
+	case 0:
 		firstRandomNumber = rand() % 99 + 1;
 		secondRandomNumber = rand() % 99 + 1;
 
@@ -52,7 +52,7 @@ int generateQuestion() {
 		}
 	break;
 
-	case 2:
+	case 1:
 		firstRandomNumber = rand() % 100;
 		secondRandomNumber = rand() % 100;
 
@@ -72,7 +72,7 @@ int generateQuestion() {
 		}
 	break;
 
-	case 3:
+	case 2:
 		firstRandomNumber = rand() % 10;
 		secondRandomNumber = rand() % 10;
 
@@ -98,7 +98,7 @@ int generateQuestion() {
 
 int main() {
 	problemCounter = 0;
-	for (problemCounter; problemCounter <= 10; problemCounter++) {
+	for (problemCounter; problemCounter <= 9; problemCounter++) {
 		currentResult = generateQuestion();
 		if (currentResult == 0) {
 			continue;
@@ -111,7 +111,7 @@ int main() {
 
 	score = (numberOfCorrectAnswers * 10);
 
-	cout << "Your score in the quiz is " << numberOfCorrectAnswers << endl;
+	cout << "Your score in the quiz is " << score << endl;
 
 	if (numberOfCorrectAnswers >= 9) {
 		cout << "Excellent, your are passed with 'A' grade!" << endl;

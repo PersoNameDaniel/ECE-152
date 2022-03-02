@@ -10,8 +10,8 @@ Date: 1-26-2022
 using namespace std;
 
 //stating variables
-int userInput;
-int output;
+int userInput;		//user input
+int output;			//answer
 
 int main() {
 	cout << "Enter the temperature in degree Fahrenheit: ";		//asking for input

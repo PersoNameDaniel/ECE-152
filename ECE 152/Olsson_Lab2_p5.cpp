@@ -10,9 +10,9 @@ Date: 1-26-2022
 using namespace std;
 
 //stating variables
-int R1;
-int R2;
-int V;
+int R1;		//value for R1
+int R2;		//value for R2
+int V;		//value for V
 
 int main() {
 	cout << "Enter the calues for R1 and R2: ";		//asking for input

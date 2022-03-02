@@ -25,8 +25,8 @@ int main() {
 	cin >> V;								//receiving input for V
 	cout << endl;							//space for formatting
 
-	cout << "The value of I in series network: " << (V / (R1 + R2)) << endl;
-	cout << "The value of I in parallel network: " << ( V / ((R1 * R2) / (R1 + R2))) << endl;
+	cout << "The value of I in series network: " << (V / (R1 + R2)) << endl;						//outputting series output
+	cout << "The value of I in parallel network: " << ( V / ((R1 * R2) / (R1 + R2))) << endl;		//outputting parallel output
 
 
 

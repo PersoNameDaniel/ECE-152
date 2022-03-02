@@ -93,5 +93,8 @@
     <ClCompile Include="Olsson_Lab5_p5.cpp">
       <Filter>Source Files\Lab 5</Filter>
     </ClCompile>
+    <ClCompile Include="Olsson_Lab5_p6.cpp">
+      <Filter>Source Files\Lab 5</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

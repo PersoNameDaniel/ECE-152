@@ -15,49 +15,61 @@ using namespace std;
 int input1;
 int input2;
 int input3;
+int input[3];
+int output[2];
 
 //functions
-int* minMax(int number1, int number2, int number3) {
+void minMax(int input[3], int output[2]) {
 
-	int numbers[3] = { number1, number2, number3 };
-
-	int max = numbers[0];
+	int max = input[0];
+	int min = input[0];
 	for (int i = 0; i < 3; i++) {
 
-		if (max < numbers[i]) {
-			max = numbers[i];
+		if (max < input[i]) {
+			max = input[i];
+		}
+
+		if (min > input[i]) {
+			min = input[i];
 		}
 	}
+	//cout << max << endl;
 
-	int min = numbers[0];
+	/*int min = input[0];
 	for (int i = 0; i < 3; i++) {
 
-		if (min > numbers[i]) {
-			min = numbers[i];
+		if (min > input[i]) {
+			min = input[i];
 		}
-	}
+	}*/
+	//cout << min << endl;
 
-	int arrayOutput[2] = {min, max};
+	output[0] = min;
+	output[1] = max;
 
 	//tuple <int, int> tupleOutput;
 	//tupleOutput = make_tuple(min, max);
 
-	return arrayOutput;
+	//return arrayOutput;
 }
 
 //main function
 int main() {
 	cout << "Enter integer 1: ";
-	cin >> input1;
+	cin >> input[0];
 	cout << endl << "Enter integer 2: ";
-	cin >> input2;
+	cin >> input[1];
 	cout << endl << "Enter integer 3: ";
-	cin >> input3;
+	cin >> input[2];
 	cout << endl;
 
-	int* ptr = minMax(input1, input2, input3);
+	minMax(input, output);
 
-	cout << "Minimum number was" << *ptr[0] << "Maximum number was" << *ptr[1] << endl;
+	//cout << output[0] << endl << output[1] << endl;
+
+	//int* ptr = minMax(input1, input2, input3);
+
+	cout << "Minimum number is " << output[0] << " Maximum number is " << output[1] << endl;
 
 	return 0;
 }

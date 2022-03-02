@@ -6,8 +6,6 @@ Date: 2-21-2022
 */
 
 #include <iostream>
-//#include <tuple>
-//#include <fstream>
 
 using namespace std;
 
@@ -33,24 +31,8 @@ void minMax(int input[3], int output[2]) {
 			min = input[i];
 		}
 	}
-	//cout << max << endl;
-
-	/*int min = input[0];
-	for (int i = 0; i < 3; i++) {
-
-		if (min > input[i]) {
-			min = input[i];
-		}
-	}*/
-	//cout << min << endl;
-
 	output[0] = min;
 	output[1] = max;
-
-	//tuple <int, int> tupleOutput;
-	//tupleOutput = make_tuple(min, max);
-
-	//return arrayOutput;
 }
 
 //main function
@@ -64,10 +46,6 @@ int main() {
 	cout << endl;
 
 	minMax(input, output);
-
-	//cout << output[0] << endl << output[1] << endl;
-
-	//int* ptr = minMax(input1, input2, input3);
 
 	cout << "Minimum number is " << output[0] << " Maximum number is " << output[1] << endl;
 

@@ -14,13 +14,13 @@ int userInput;
 int output;
 
 int main() {
-	cout << "Enter the temperature in degree Fahrenheit: ";
-	cin >> userInput;
-	cout << endl;
+	cout << "Enter the temperature in degree Fahrenheit: ";		//asking for input
+	cin >> userInput;											//receiving input
+	cout << endl;												//formatting
 
-	output = (5.0 / 9.0) * (userInput - 32);
+	output = (5.0 / 9.0) * (userInput - 32);		//generating output
 
-	cout << "Temperature in degree Celsius: " << output << endl;
+	cout << "Temperature in degree Celsius: " << output << endl;		//outputting answer
 
 	return 0;
 }

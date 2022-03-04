@@ -41,6 +41,8 @@ void summary(int array[10]) {
 	average = (total / 10);
 
 	answer[2] = average;
+
+	cout << "Minimum is " << answer[0] << ". Maximum is " << answer[1] << ". Average is " << answer[2] << "." << endl;
 }
 
 int main() {
@@ -53,8 +55,6 @@ int main() {
 	cout << endl;
 
 	summary(arr1);
-
-	cout << "Minimum is " << answer[0] << ". Maximum is " << answer[1] << ". Average is " << answer[2] << "." << endl;
 
 	return 0;
 }

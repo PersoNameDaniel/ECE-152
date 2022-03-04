@@ -11,7 +11,7 @@ using namespace std;
 
 //defining variables
 int value;
-int userArray[10];
+int arr1[10];
 
 //functions
 
@@ -20,26 +20,26 @@ int main() {
 	//getting array from user
 	for (int i = 0; i <= 9; i++) {
 		cout << "Please enter integer number " << i + 1 << " of 10." << endl;
-		cin >> userArray[i];
+		cin >> arr1[i];
 	}
 	cout << endl;
 
 	//printing original array
 	for (int i = 0; i <= 9; i++) {
-		cout << userArray[i] << ", ";
+		cout << arr1[i] << ", ";
 	}
 	cout << endl;
 
 	//reversing order of array
 	for (int i = 0; i <= 4; i++) {
-		value = userArray[i];
-		userArray[i] = userArray[9 - i];
-		userArray[9 - i] = value;
+		value = arr1[i];
+		arr1[i] = arr1[9 - i];
+		arr1[9 - i] = value;
 	}
 
 	//printing new array
 	for (int i = 0; i <= 9; i++) {
-		cout << userArray[i] << ", ";
+		cout << arr1[i] << ", ";
 	}
 	cout << endl;
 

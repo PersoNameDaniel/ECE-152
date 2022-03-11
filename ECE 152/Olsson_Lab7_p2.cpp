@@ -46,5 +46,7 @@ int main() {
 		}
 	}
 
+	findmax(userArray);
+
 	return 0;
 }

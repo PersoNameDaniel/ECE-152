@@ -13,7 +13,7 @@ using namespace std;
 int userArray[10][15];
 
 //functions
-void findmax() {
+void findmax(int userArray[10][15]) {
 
 	//defining function variables
 	int max = 0;
@@ -36,6 +36,15 @@ void findmax() {
 }
 
 int main() {
+
+	//getting user input for massive array
+	for (int i = 0; i <= 9; i++) {
+		for (int j = 0; j <= 14; j++) {
+			cout << "Please enter integer number " << (i + 1) << ", " << (j + 1) << endl;
+			cin >> userArray[i][j];
+			cout << endl;
+		}
+	}
 
 	return 0;
 }

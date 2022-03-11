@@ -37,16 +37,27 @@ void findmax(int userArray[10][15]) {
 
 int main() {
 
-	//getting user input for massive array
+	//seeding rand
+	srand(time(0));
+
+	//populating massive array
 	for (int i = 0; i <= 9; i++) {
 		for (int j = 0; j <= 14; j++) {
-			cout << "Please enter integer number " << (i + 1) << ", " << (j + 1) << endl;
-			cin >> userArray[i][j];
-			cout << endl;
+			userArray[i][j] = rand() % 100 + 1;
 		}
 	}
 
 	findmax(userArray);
 
+	//uncomment below to display entire array
+
+	/*
+	for (int i = 0; i <= 9; i++) {
+		cout << endl;
+		for (int j = 0; j <= 14; j++) {
+			cout << userArray[i][j] << ", ";
+		}
+	}
+	*/
 	return 0;
 }

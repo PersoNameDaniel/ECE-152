@@ -1,8 +1,8 @@
 /*
 Class: ECE15200
 Author: Daniel Olsson
-Assignment: Lab 6
-Date: 2-28-2022
+Assignment: Lab 7
+Date: 3-07-2022
 */
 
 #include <iostream>

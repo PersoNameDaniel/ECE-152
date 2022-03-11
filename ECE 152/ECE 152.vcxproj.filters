@@ -129,5 +129,8 @@
     <ClCompile Include="Olsson_Lab7_p1.cpp">
       <Filter>Source Files\Lab 7</Filter>
     </ClCompile>
+    <ClCompile Include="Olsson_Lab7_p2.cpp">
+      <Filter>Source Files\Lab 7</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -11,6 +11,7 @@ using namespace std;
 
 //defining variables
 float studentGradeArray[3][4];
+float finalGrade[3];
 
 //functions
 
@@ -26,9 +27,18 @@ int main() {
 		}
 	}
 
+	//calculating sutdent averages
+	for (int i = 0; i <= 2; i++) {
+		finalGrade[i] = ((studentGradeArray[i][0] * 0.3) + (studentGradeArray[i][1] * 0.3) + (studentGradeArray[i][2] * 0.4));
+	}
+
+	//displaying averages
+	for (int i = 0; i <= 2; i++) {
+		cout << "Student " << (i + 1) << "'s grade is: " << finalGrade[i] << endl;
+	}
+
 	//uncomment below to display entire array
 
-	
 	for (int i = 0; i <= 2; i++) {
 		cout << endl;
 		for (int j = 0; j <= 3; j++) {

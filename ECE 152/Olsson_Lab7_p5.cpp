@@ -14,7 +14,7 @@ using namespace std;
 //functions
 void show(float (*rates)[9]) {
 	for (int i = 0; i <= 8; i++) {
-		cout << "value number " << (i + 1) << " is: " << *(rates + i) << endl;
+		cout << "value number " << (i + 1) << " is: " << *rates << *(rates + i) << endl;
 	}
 }
 

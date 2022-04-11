@@ -31,45 +31,22 @@ int main() {
 
 	reverse(userArray);
 
-	cout << userArray;
-
 	return 0;
 }
 
 //functions
 void reverse(char s[]) {
-	/*
-	// int arraySize = (sizeof(s) / sizeof(s[0]));
+	int arraySize = (sizeof(s) / sizeof(s[0]));
 	//int arraySize = 5;
-	// cout << "arraySize = " << arraySize << endl;
+	cout << "arraySize = " << arraySize << endl;
 	char reverseString[5] = {};
 	for (int i = 0; i < arraySize; i++) {
 		reverseString[arraySize - i] = s[i];
-		//cout << "s[" << i << "] = " << s[i] << endl;
+		cout << "s[" << i << "] = " << s[i] << endl;
 	}
 
 	cout << "string reversed: " << endl;
 	for (int i = 0; i < arraySize + 1; i++) {
 		cout << reverseString[i];
 	}
-	*/
-
-	int i = 0;
-	while (s[i])
-	{
-		cout << s[i];
-		++i;
-	}
-
-	int arraySize = ++i;
-	char* reversedString = new char[arraySize];
-
-	for(int i = 0; i < arraySize / 2; ++i)
-	{
-		reversedString[arraySize - i] = s[i];
-
-		cout << reversedString[arraySize - i];
-	}
-
-	cout << endl;
 }

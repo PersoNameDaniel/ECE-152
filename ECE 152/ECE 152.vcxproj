@@ -135,6 +135,7 @@
     </ClCompile>
     <ClCompile Include="Olsson_Lab8_p5.cpp" />
     <ClCompile Include="Olsson_Lab8_p6.cpp" />
+    <ClCompile Include="Olsson_Lab8_p7.cpp" />
     <ClCompile Include="Template.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

@@ -11,23 +11,18 @@ using namespace std;
 
 //defining variables
 string userInput;
-char userArray[5];
+char userArray[50000];
 
 void reverse(char s[]);
 
 
 int main() {
-	cout << "Please enter word or phrase to reverse" << endl;
+	cout << "Please enter a word to be reversed" << endl;
 	cin >> userInput;
 
 	for (int i = 0; i < size(userInput); i++) {
 		userArray[i] = userInput.at(i);
 	}
-
-	/*char inputAsArray[userInput.size() + 1];
-	strncpy(inputAsArray, userInput.c_str(), userInput.size() + 1);
-
-	reverse(userInput.c_str());*/
 
 	reverse(userArray);
 
@@ -36,16 +31,14 @@ int main() {
 
 //functions
 void reverse(char s[]) {
-	int arraySize = (sizeof(s) / sizeof(s[0]));
-	//int arraySize = 5;
-	cout << "arraySize = " << arraySize << endl;
-	char reverseString[5] = {};
+	// int arraySize = (sizeof(s) / sizeof(s[0]));
+	int arraySize = 50000;
+	char reverseString[50000] = {};
 	for (int i = 0; i < arraySize; i++) {
 		reverseString[arraySize - i] = s[i];
-		cout << "s[" << i << "] = " << s[i] << endl;
 	}
 
-	cout << "string reversed: " << endl;
+	cout << "string reversed: ";
 	for (int i = 0; i < arraySize + 1; i++) {
 		cout << reverseString[i];
 	}

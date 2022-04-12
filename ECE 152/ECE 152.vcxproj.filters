@@ -171,5 +171,8 @@
     <ClCompile Include="Olsson_Lab9_p1.cpp">
       <Filter>Source Files\Lab 1\Lab 9</Filter>
     </ClCompile>
+    <ClCompile Include="Olsson_Lab9_p2.cpp">
+      <Filter>Source Files\Lab 1\Lab 9</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

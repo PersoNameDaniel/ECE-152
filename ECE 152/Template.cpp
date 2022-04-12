@@ -9,9 +9,9 @@ Date: 04-12-2022
 
 using namespace std;
 
-//defining variables
+// defining variables
 
-//functions
+// functions
 
 int main() {
 

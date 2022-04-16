@@ -177,5 +177,13 @@
     <ClCompile Include="Olsson_Lab9_p3.cpp">
       <Filter>Source Files\Lab 9</Filter>
     </ClCompile>
+    <ClCompile Include="Olsson_Lab9_p4.cpp">
+      <Filter>Source Files\Lab 9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="employee.dat">
+      <Filter>Source Files\Lab 9</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -6,6 +6,7 @@ Date: 04-12-2022
 */
 
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -14,6 +15,11 @@ using namespace std;
 // functions
 
 int main() {
+	ifstream inFile;
+	inFile.open("employees.dat");
+
+	ofstream outFile;
+	outFile.open("employee.bak");
 
 	return 0;
 }

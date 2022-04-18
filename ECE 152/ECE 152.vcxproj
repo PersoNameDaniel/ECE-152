@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="exampleProblem.cpp" />
     <ClCompile Include="Olsson _Lab1_p3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -159,6 +160,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="employee.bak" />
     <None Include="employee.dat" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

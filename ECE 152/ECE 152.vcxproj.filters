@@ -180,9 +180,15 @@
     <ClCompile Include="Olsson_Lab9_p4.cpp">
       <Filter>Source Files\Lab 9</Filter>
     </ClCompile>
+    <ClCompile Include="exampleProblem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="employee.dat">
+      <Filter>Source Files\Lab 9</Filter>
+    </None>
+    <None Include="employee.bak">
       <Filter>Source Files\Lab 9</Filter>
     </None>
   </ItemGroup>

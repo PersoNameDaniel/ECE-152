@@ -52,11 +52,11 @@ int main() {
 	id68.gallons = 153;
 
 	// outputting values
-	cout << "car ID number 25: " << id25.number << ", " << id25.miles << " Miles Driven, " << id25.gallons << " Gallons used" << endl;
-	cout << "car ID number 36: " << id36.number << ", " << id36.miles << " Miles Driven, " << id36.gallons << " Gallons used" << endl;
-	cout << "car ID number 44: " << id44.number << ", " << id44.miles << " Miles Driven, " << id44.gallons << " Gallons used" << endl;
-	cout << "car ID number 52: " << id52.number << ", " << id52.miles << " Miles Driven, " << id52.gallons << " Gallons used" << endl;
-	cout << "car ID number 68: " << id68.number << ", " << id68.miles << " Miles Driven, " << id68.gallons << " Gallons used" << endl;
+	cout << "car ID number 25: " << id25.number << ", " << id25.miles << " Miles Driven, " << id25.gallons << " Gallons used" << (id25.miles / id25.gallons) << "MPG" << endl;
+	cout << "car ID number 36: " << id36.number << ", " << id36.miles << " Miles Driven, " << id36.gallons << " Gallons used" << (id36.miles / id36.gallons) << "MPG" << endl;
+	cout << "car ID number 44: " << id44.number << ", " << id44.miles << " Miles Driven, " << id44.gallons << " Gallons used" << (id44.miles / id44.gallons) << "MPG" << endl;
+	cout << "car ID number 52: " << id52.number << ", " << id52.miles << " Miles Driven, " << id52.gallons << " Gallons used" << (id52.miles / id52.gallons) << "MPG" << endl;
+	cout << "car ID number 68: " << id68.number << ", " << id68.miles << " Miles Driven, " << id68.gallons << " Gallons used" << (id68.miles / id68.gallons) << "MPG" << endl;
 
 	// calculating total mpg
 	totalMiles = ((id25.miles) + (id36.miles) + (id44.miles) + (id52.miles) + (id68.miles));

@@ -197,5 +197,8 @@
     <None Include="prices.dat">
       <Filter>Source Files</Filter>
     </None>
+    <None Include="carSpecifications.dat">
+      <Filter>Source Files\Lab 9</Filter>
+    </None>
   </ItemGroup>
 </Project>

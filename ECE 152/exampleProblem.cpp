@@ -2,35 +2,35 @@
 #include <fstream>
 #include <cstdlib>   // needed for exit()
 #include <string>    // needed for the string class
-#include <iomanip>   // needed for formatting
 using namespace std;
 
 int main()
 {
 	string filename = "prices.dat";  // put the filename up front
-	ofstream outFile;
+	string descrip;
+	double price;
 
-	outFile.open(filename.c_str());
+	ifstream inFile;
 
-	if (outFile.fail())
+	inFile.open(filename.c_str());
+
+	if (inFile.fail())  // check for successful open
 	{
-		cout << "The file was not successfully opened" << endl;
+		cout << "\nThe file was not successfully opened"
+			<< "\n Please check that the file currently exists."
+			<< endl;
 		exit(1);
 	}
 
-	// set the output file stream formats
-	outFile << setiosflags(ios::fixed)
-		<< setiosflags(ios::showpoint)
-		<< setprecision(2);
+	// read and display the file's contents
+	inFile >> descrip >> price;
+	while (inFile.good()) // check next character
+	{
+		cout << descrip << ' ' << price << endl;
+		inFile >> descrip >> price;
+	}
 
-	// send data to the file
-	outFile << "Mats " << 39.95 << endl
-		<< "Bulbs " << 3.022 << endl
-		<< "Fuses " << 1.08 << endl;
-
-	outFile.close();
-	cout << "The file " << filename
-		<< " has been successfully written." << endl;
+	inFile.close();
 
 	return 0;
 }

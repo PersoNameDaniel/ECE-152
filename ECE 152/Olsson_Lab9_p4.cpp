@@ -17,6 +17,7 @@ using namespace std;
 // defining variables
 
 // functions
+string fileInput[5][5];
 
 int main() {
 	ifstream inFile;
@@ -33,10 +34,19 @@ int main() {
 		exit(1);
 	}
 
-	// send data to the file
-	outFile << "Mats " << 39.95 << endl
-		<< "Bulbs " << 3.022 << endl
-		<< "Fuses " << 1.08 << endl;
+	for (int i = 0; i <= 4; i++) {
+		for (int j = 0; j <= 4; j++) {
+			inFile >> fileInput[i][j];
+		}
+	}
+
+	// file output
+	for (int i = 0; i <= 4; i++) {
+		outFile << endl;
+		for (int j = 0; j <= 4; j++) {
+			outFile << fileInput[i][j] << "    ";
+		}
+	}
 
 	outFile.close();
 	cout << "The file " << "employee.bak" << " has been successfully written." << endl;

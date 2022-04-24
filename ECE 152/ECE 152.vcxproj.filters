@@ -183,6 +183,9 @@
     <ClCompile Include="exampleProblem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Olsson_Lab9_p5.cpp">
+      <Filter>Source Files\Lab 9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="employee.dat">
